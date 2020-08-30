@@ -1,17 +1,30 @@
 <!DOCTYPE html>
 <html>
-
-  <!DOCTYPE html>
-  <html>
-  <body>
-  
-  <form action="upload.php" method="post" enctype="multipart/form-data">
-  Select image to upload:
-  <input type="file" name="fileToUpload" id="fileToUpload">
-  <input type="submit" value="Upload Image" name="submit">
-  </form>
   
   </body>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBoCd4pJ_cdZsm08iCCeeGVE1kGTuFl81k",
+    authDomain: "personal-website-a324d.firebaseapp.com",
+    databaseURL: "https://personal-website-a324d.firebaseio.com",
+    projectId: "personal-website-a324d",
+    storageBucket: "personal-website-a324d.appspot.com",
+    messagingSenderId: "807864647674",
+    appId: "1:807864647674:web:85bbd5888c668705522e43",
+    measurementId: "G-WEH90JXT5D"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
   </html>
 
 <head>
